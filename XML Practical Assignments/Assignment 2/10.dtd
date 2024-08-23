@@ -1,0 +1,12 @@
+<!ELEMENT Student_info (Student+, Course+)>
+<!ELEMENT Student (Name, contact_no)>
+<!ATTLIST Student which_course ID #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT contact_no (#PCDATA)>
+<!ENTITY defaultCon "9999999">
+<!ATTLIST contact_no contact NMTOKEN #REQUIRED>
+<!ELEMENT Course (cName, Subject)>
+<!ATTLIST Course c_id IDREF #REQUIRED>
+<!ELEMENT cName (#PCDATA)>
+<!ELEMENT Subject EMPTY>
+<!ATTLIST Subject name CDATA #REQUIRED>

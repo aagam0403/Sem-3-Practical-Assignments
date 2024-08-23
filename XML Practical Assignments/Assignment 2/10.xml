@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE Student_info SYSTEM "10.dtd">
+<Student_info>
+    <Student which_course="c_56">
+        <Name>Komolika</Name>
+        <contact_no contact="99999999"></contact_no>
+    </Student>
+
+    <Student which_course="c_20">
+        <Name>Prerna</Name>
+        <contact_no contact="S101"/>
+    </Student>
+
+    <Course c_id="c_20">
+        <cName>iMScIT</cName>
+        <Subject name="XML"></Subject>
+    </Course>
+</Student_info>

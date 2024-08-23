@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<!DOCTYPE Student SYSTEM "8.dtd">
+	<Student>
+		<Roll>323</Roll>
+		<Name>AAGAM</Name>
+		<Marks>
+			<XML>xml</XML>
+			<J2EE>j2ee</J2EE>
+			<NS>ns</NS>
+		</Marks>
+		<Rank>A++</Rank>
+	</Student>

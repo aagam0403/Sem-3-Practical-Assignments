@@ -1,0 +1,14 @@
+<!ELEMENT Letter (contact+,salutation,paragraph,closing,signature)>
+<!ELEMENT contact (name,address,city,pin,state,flag)>
+<!ATTLIST contact type CDATA #FIXED "sender">
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT pin (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT flag EMPTY>
+<!ATTLIST flag gender (Male|Female) #FIXED "Male"> 
+<!ELEMENT salutation (#PCDATA)>
+<!ELEMENT paragraph (#PCDATA)>
+<!ELEMENT closing (#PCDATA)>
+<!ELEMENT signature (#PCDATA)>

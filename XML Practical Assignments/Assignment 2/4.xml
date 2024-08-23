@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "4.dtd">
+	<student>
+	<name>aagam</name>
+	<personal>
+		<address>abc</address>
+		<bdate>4</bdate>
+		<gender>
+			<male>male</male>
+		</gender>
+		<mobile>7046465749</mobile>
+	</personal>
+	<result>
+		<total>365</total>
+		<perc>100</perc>
+		<grade>
+			<First>First</First>
+		</grade>
+	</result>
+	</student>

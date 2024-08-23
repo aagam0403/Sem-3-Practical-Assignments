@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+	<books>
+		<book title="it">abc</book>
+		<author>xyz</author>
+		<year>2006</year>
+		<publisher>abc</publisher>
+	</books>

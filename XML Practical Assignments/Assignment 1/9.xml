@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+	<letter>
+		<contact type="manager">
+			<name>aagam</name>
+			<address>paldi</address>
+			<city>ahmd</city>
+			<pin>380007</pin>
+			<state>gujarat</state>
+			<flag gender="male">india</flag>
+		</contact>
+		<salutation>abc</salutation>
+		<paragraph>asdfg</paragraph>
+		<closing>close</closing>
+		<signature>aagam</signature>
+	</letter>	

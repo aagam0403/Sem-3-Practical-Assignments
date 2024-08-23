@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+	<order>
+		<no>306</no>
+		<date>04</date>
+		<amount>360</amount>
+		<price>30</price>
+		<item>abc</item>
+		<quantity>3</quantity>
+	</order>

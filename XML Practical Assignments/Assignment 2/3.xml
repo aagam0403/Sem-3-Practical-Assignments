@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+	<!DOCTYPE order
+		[
+			<!ELEMENT order (no,amount?,price*,name+,quantity*)>
+			<!ELEMENT no (#PCDATA)>
+			<!ATTLIST no date CDATA #REQUIRED>
+			<!ELEMENT amount (#PCDATA)>
+			<!ELEMENT price (#PCDATA)>
+			<!ELEMENT name (#PCDATA)>
+			<!ELEMENT quantity (#PCDATA)>
+		]>
+		<order>
+			<no date="3">2</no>
+			<amount>345</amount>
+			<price>345</price>
+			<name>abc</name>
+			<quantity>3</quantity>	
+		</order>

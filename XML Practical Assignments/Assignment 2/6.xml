@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+	<!DOCTYPE student SYSTEM "6.dtd">
+	<student>
+		<name>
+			<fname>aagam</fname>
+			<lname>sanghvi</lname>
+		</name>
+		<id>1234</id>
+		<plan>
+			<courses year="2024">
+				<course>
+					<names>Bca</names>
+					<sname>bca</sname>
+					<record>
+						<grade>a</grade>
+						<date>02-08</date>
+					</record>
+				</course>
+			</courses>
+		</plan>
+	</student>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+	<student>
+		<name>
+			<fname>aagam</fname>
+			<lname>sanghvi</lname>
+		</name>
+		<id>1234</id>
+		<plan>
+			<courses year="2024">
+				<course>
+					<name>Bca</name>
+					<sname>bca</sname>
+					<reccord>
+						<grade>a</grade>
+						<date>02-08</date>
+					</reccord>
+				</course>
+			</courses>
+		</plan>
+	</student>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+	<student>
+		<name>Aagam</name>
+		<personal>
+			<address>123</address>
+			<bdate>4</bdate>
+			<gender>male</gender>
+			<mob>7045235</mob>
+		</personal>
+		<result>
+			<total>345</total>
+			<perc>34</perc>
+			<grade>a</grade>
+		</result>
+	</student>

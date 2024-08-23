@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+	<employee>
+		<no>1</no>
+		<name>asb</name>
+		<dep>it</dep>
+		<managern>abc</managern>
+		<project>
+			<proj1>1</proj1>
+			<proj2>2</proj2>
+			<proj3>3</proj3>
+		</project>
+		<designation>manager</designation>
+	</employee>

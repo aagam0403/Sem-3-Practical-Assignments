@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE Letter SYSTEM "9.dtd">
+<Letter>
+    <contact type="sender">
+        <name>John Cena</name>
+        <address>123 NewStreet, USA</address>
+        <city>Venice</city>
+        <pin>380001</pin>
+        <state>California</state>
+        <flag gender="Male"></flag>
+    </contact>
+
+    <salutation>Dear, Mr. Cena</salutation>
+    <paragraph>Hello, When are you thinking about showing up?</paragraph>
+    <closing>Sincerely,</closing>
+    <signature>Anant Ambani</signature>
+</Letter>
