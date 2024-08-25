@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+	<pinfo>
+		<starter>
+			<juice>Apple</juice>
+		</starter>
+		<mcourse>
+			<veg>abc</veg>
+		</mcourse>
+		<desert>
+			<fsalad>xyz</fsalad>
+		</desert>
+	</pinfo>
