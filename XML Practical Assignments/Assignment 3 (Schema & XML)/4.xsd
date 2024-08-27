@@ -1,0 +1,18 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="emp">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name="employee" minOccurs="0" maxOccurs="1">
+					<xsd:complexType>
+						<xsd:choice>
+							<xsd:element name="boy" type="xsd:string">
+							</xsd:element>
+							<xsd:element name="girl" type="xsd:string">
+							</xsd:element>
+						</xsd:choice>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
