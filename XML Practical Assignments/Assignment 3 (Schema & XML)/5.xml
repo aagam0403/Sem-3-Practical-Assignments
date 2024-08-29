@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+	<sales>
+		<name>ABC</name>
+		<busininfo>
+			<cmp>XYZ</cmp>
+			<dep>Sales</dep>
+			<manager>MNO</manager>
+			<phone>123456789</phone>
+			<email>aaga789@gmail.com</email>
+		</busininfo>
+		<persinfo>
+			<phoneno>987654321</phoneno>
+			<address>Ahmd.</address>
+		</persinfo>
+	</sales>
