@@ -1,0 +1,43 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="sales">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name="name" type="xsd:string"></xsd:element>
+				<xsd:element name="busininfo">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="cmp" type="xsd:string">
+							</xsd:element>
+							<xsd:element name="dep">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:enumeration value="Sales"></xsd:enumeration>
+										<xsd:enumeration value="Financial"></xsd:enumeration>
+										<xsd:enumeration value="Operation"></xsd:enumeration>
+										<xsd:enumeration value="Database"></xsd:enumeration>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
+							<xsd:element name="manager" type="xsd:string">
+							</xsd:element>
+							<xsd:element name="phone" type="xsd:integer">
+							</xsd:element>
+							<xsd:element name="email" type="xsd:string">
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="persinfo">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="phoneno" type="xsd:integer">
+							</xsd:element>
+							<xsd:element name="address" type="xsd:string">
+							</xsd:element>
+						</xsd:sequence>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
