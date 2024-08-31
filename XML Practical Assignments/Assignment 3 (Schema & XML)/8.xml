@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<vender>
+	<name>abc</name>
+	<info>
+		<add>abc</add>
+		<date>12</date>
+		<gender>male</gender>
+		<pin>11111</pin>
+	</info>
+</vender>
