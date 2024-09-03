@@ -2,7 +2,7 @@
 	<!DOCTYPE student SYSTEM "6.dtd">
 	<student>
 		<name>
-			<fname>aagam</fname>
+			<fname>aagam</fname> 
 			<lname>sanghvi</lname>
 		</name>
 		<id>1234</id>
