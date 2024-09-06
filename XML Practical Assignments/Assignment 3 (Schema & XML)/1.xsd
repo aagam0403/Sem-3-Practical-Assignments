@@ -10,7 +10,7 @@
 				<xsd:element name="address" type="xsd:string">
 				</xsd:element>
 				<xsd:element name="perc" type="xsd:int">
-				</xsd:element>
+				</xsd:element> 
 				<xsd:element name="cyear" type="xsd:int">
 				</xsd:element>
 			</xsd:all>
