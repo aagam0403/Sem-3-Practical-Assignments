@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="3.xsl"?>
+<Books>
+	<book title="XML">
+		<author>a</author>
+		<year>1997</year>
+		<publisher>x</publisher>
+	</book>
+	<book title="C">
+		<author>b</author>
+		<year>1999</year>
+		<publisher>y</publisher>
+	</book>
+	<book title="HTML">
+		<author>c</author>
+		<year>1989</year>
+		<publisher>z</publisher>
+	</book>
+	<book title="C++">
+		<author>d</author>
+		<year>1990</year>
+		<publisher>w</publisher>
+	</book>
+	<book title="CSS">
+		<author>e</author>
+		<year>1991</year>
+		<publisher>v</publisher>
+	</book>
+</Books>
