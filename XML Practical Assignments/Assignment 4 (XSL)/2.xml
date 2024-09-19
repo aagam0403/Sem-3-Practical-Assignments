@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="2.xsl"?>
+<ord_det>
+	<no>1</no>
+	<rate>2000</rate>
+	<amount>100000</amount>
+	<price>80000</price>
+	<name>Iphone 16</name>
+	<quant>30</quant>
+</ord_det>
