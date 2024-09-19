@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="1.xsl"?>
+<Employee>
+		<name id="1">
+			<fname>abc</fname>
+			<lname>xyz</lname>
+		</name>		
+</Employee>
