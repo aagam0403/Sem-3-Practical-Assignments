@@ -1,31 +1,19 @@
 #include <iostream>
 using namespace std;
+template<class T1,class T2,class T3>
+void dis(T1 a,T2 b,T3 c)
+{
+	if(a>b)
+	{
+		cout<<a<<"t"<<c<<endl;
+	}
+	else
+	{
+		cout<<b<<"\t"<<c<<endl;	
+	}
+}
 
-int main() {
-    int rows, cols;
-
-    cout << "Enter the number of rows: ";
-    cin >> rows;
-
-    cout << "Enter the number of columns: ";
-    cin >> cols;
-
-    int arr[rows][cols];
-
-    cout << "Enter the elements:\n";
-    for(int i = 0; i < rows; i++) {
-        for(int j = 0; j < cols; j++) {
-            cin >> arr[i][j];
-        }
-    }
-
-    cout << "The elements are:\n";
-    for(int i = 0; i < rows; i++) {
-        for(int j = 0; j < cols; j++) {
-            cout << arr[i][j] << " ";
-        }
-        cout << endl;
-    }
-
-    return 0;
+int main()
+{
+	dis(10,10.1,'a');
 }
