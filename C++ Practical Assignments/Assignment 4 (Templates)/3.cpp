@@ -1,10 +1,25 @@
 #include <iostream>
 using namespace std;
+template<class T>
+class stud{
+	public :
+	void set(T size)
+	{
+		T arr[size];
+		for(int i=0;i<size;i++)
+		{
+			cout<<"Enter the value :";
+			cin>>arr[i];
+		}
+		for(int i=0;i<size;i++)
+		{
+			cout<<arr[i]<<endl;
+		}
+	}
+};
+
 int main()
 {
-    string str;
-    cout<<"Enter the String = ";
-    getline(cin,str);
-    cout<<str<<endl;
-    return 0;
+	stud<int> s;
+	s.set(3);
 }
