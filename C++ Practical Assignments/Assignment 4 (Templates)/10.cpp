@@ -1,31 +1,21 @@
 #include <iostream>
 using namespace std;
-class Employee 
-{
-public:
-    string name;
-    int salary;
-    void get() 
-    {
-        cout << "Enter Name & Salary: ";
-        cin >> name >> salary;
-    }
-    void display() 
-    {
-        cout << "Name: " << name << endl;
-        cout << "Salary: " << salary << endl;
-    }
+template<class T1,class T2>
+class obj{
+	public :
+	string a;
+	int b;
+	obj(T1 a,T2 b){
+		this->a=a;
+		this->b=b;
+	};
+	void dis()
+	{
+		cout<<a<<"\n"<<b<<endl;
+	}
 };
-
-int main() {
-    Employee e1[3];
-    for (int i = 0; i < 3; i++)
-    {
-        cout<<"Enter details for Employee "<<i+1<<":"<<endl;
-        e1[i].get();
-        cout<<"Displaying details of Employee "<<i+1<<":"<< endl;
-        e1[i].display();
-        cout<<"--------------------------"<<endl;
-    }
-    return 0;
+int main()
+{
+	obj<string,int> a("abc",10);
+	a.dis();
 }
