@@ -1,17 +1,17 @@
 #include <iostream>
 using namespace std;
-int main() 
+template<class T1,class T2>
+class comp{
+	public :
+	T2 cint;
+	void inte(T1 p,T2 i,T1 n)
+	{
+		cint=((p*i*n)/100);
+		cout<<"Compound Interest : "<<cint<<endl;
+	}
+};
+int main()
 {
-    string str1,str2;
-    cout<<"Enter Name = ";
-    cin>>str1;
-    cout<<"You entered string 1 as = "<<str1<<endl;
-    
-    cout<<"Enter Surname = ";
-    cin>>str2;
-    cout<<"You entered string 2 as = "<<str2<<endl;
-    
-    str1.append(str2);
-    cout<<"After Append string 1 as = "<<str1<<endl;
-    return 0;
+	comp<int,float> s;
+	s.inte(10000,10,1);
 }
