@@ -1,25 +1,19 @@
 #include<iostream>
 using namespace std;
-void arr(int a[5])
+template<class T1,class T2>
+void swap(T1 a,T2 b)
 {
-	int max=0;
-	for(int i=0;i<5;i++)
-	{
-		if(max<a[i])
-		{
-			max=a[i];
-		}
-	}
-	cout<<"Maximum : "<<max<<endl;
+	cout<<"Before Swapping :"<<endl;
+	cout<<"A : "<<a<<endl<<"B : "<<b<<endl;
+	int t=0;
+	t=a;
+	a=b;
+	b=t;
+	cout<<"After Swapping : "<<endl;
+	cout<<"A : "<<a<<endl<<"B : "<<b<<endl;
 }
+
 int main()
 {
-	int a[5];
-	for(int i=0;i<5;i++)
-	{
-		cout<<"\nEnter the element : ";
-		cin>>a[i];
-	}
-	arr(a);
-	return 0;
+	swap(1,2);
 }
