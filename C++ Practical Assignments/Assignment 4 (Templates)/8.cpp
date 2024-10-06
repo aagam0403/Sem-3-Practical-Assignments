@@ -1,24 +1,18 @@
 #include <iostream>
 using namespace std;
+template<class T1,class T2,class T3,class T4>
+class stud{
+	public :
+	stud(T1 a,T2 b,T3 c,T4 d)
+	{
+		cout<<a<<endl;
+		cout<<b<<endl;
+		cout<<c<<endl;
+		cout<<d<<endl;
+	}
+};
 
-int countElements(int arr[], int size) {
-    return size;
-}
-
-int main() {
-    int n;
-    
-    cout << "Enter the number of elements: ";
-    cin >> n;
-    
-    int arr[n];
-    
-    cout << "Enter the elements: ";
-    for(int i = 0; i < n; i++) {
-        cin >> arr[i];
-    }
-    
-    cout << "Number of elements in the array: " << countElements(arr, n) << endl;
-    
-    return 0;
+int main()
+{
+	stud <int,float,char,string> s(7,8.8,'k',"CR7");
 }
