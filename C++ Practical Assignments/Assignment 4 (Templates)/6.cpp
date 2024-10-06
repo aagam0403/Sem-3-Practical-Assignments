@@ -1,25 +1,18 @@
 #include <iostream>
 using namespace std;
-void arr(int a[5])
+template<class T>
+class stud{
+	public :
+	void op(T a,T b)
+	{
+		cout<<"Addition :"<<(a+b)<<endl;
+		cout<<"Subtaction :"<<(a-b)<<endl;
+		cout<<"Multiplication :"<<(a*b)<<endl;
+		cout<<"Division :"<<(a/b)<<endl;
+	}
+};
+int main()
 {
-    int min=a[0];
-    for (int i=5;i>0;i--)
-    {
-        if(min>a[i])
-        {
-            min=a[i];
-        }
-    }
-    cout<<"Minimum : "<<min<<endl;
-}
-int main() 
-{
-    int a[5];
-    for(int i=0;i<5;i++)
-    {
-        cout<<"\nEnter the element of a["<<i<<"]";
-        cin>>a[i];
-    }
-    arr(a);
-    return 0;
+	stud<int> obj;
+	obj.op(10,5);
 }
