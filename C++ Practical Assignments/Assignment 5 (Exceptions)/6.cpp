@@ -1,28 +1,35 @@
-#include <iostream>
-#include <string>
+#include<iostream>
 using namespace std;
 
-int main() 
-{
-    string email;
-    cout << "Enter your email address: ";
-    cin >> email;
-
+int main(){
+    int f=0;
+    string s;
+    cout<<"Enter email : ";
+    cin>>s;
     try
     {
-        if (email.find('@') == string::npos)
+        for (int i=0;i<s.length();i++)
         {
-            throw false;
+            if(s[i]=='@')
+            {
+                f=1;
+                break;
+            }
+        }
+        if(f==1)
+        {
+            throw "valid email";
         }
         else
         {
-            cout << "Email accepted : " << email << endl;
+            throw "invalid email";
         }
+        
     }
-    catch (bool e)
+    catch(const char* s)
     {
-        cout <<"Email not acceptable"<< endl;
+        cout<<s;
     }
-
+     
     return 0;
 }
