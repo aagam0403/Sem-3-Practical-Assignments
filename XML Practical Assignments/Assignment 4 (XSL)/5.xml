@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+	<?xml-stylesheet type="text/xsl" href="4.xsl"?>
+<students>
+	<student>
+		<name>a</name>
+		<info>
+			<add>xyz</add>
+			<date>12-12-2003</date>
+			<gender>Male</gender>
+			<mobile>4734984627</mobile>
+		</info>
+		<result>pass</result>
+	</student>
+	<student>
+		<name>f</name>
+		<info>
+			<add>xyz</add>
+			<date>24-02-2004</date>
+			<gender>Male</gender>
+			<mobile>623787837</mobile>
+		</info>
+		<result>fail</result>
+	</student>
+	<student>
+		<name>c</name>
+		<info>
+			<add>xyz</add>
+			<date>30-6-1999</date>
+			<gender>Female</gender>
+			<mobile>6347375820</mobile>
+		</info>
+		<result>pass</result>
+	</student>
+</students>
