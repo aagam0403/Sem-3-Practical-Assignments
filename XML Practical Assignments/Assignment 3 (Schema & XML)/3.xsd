@@ -1,37 +1,44 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<xsd:element name="data">
 		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="name" type="xsd:string">
+			<xsd:all>
+				<xsd:element name="student">
 				</xsd:element>
 				
-				<xsd:element name="info">
+				<xsd:element name="pinfo">
 					<xsd:complexType>
 						<xsd:all>
 							<xsd:element name="add" type="xsd:string">
 							</xsd:element>
-							<xsd:element name="date" type="xsd:integer">
+							<xsd:element name="bdate" type="xsd:integer">
+							</xsd:element>
+							<xsd:element name="mob">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:integer">
+										<xsd:totalDigits value="10">
+										</xsd:totalDigits>
+									</xsd:restriction>
+								</xsd:simpleType>
 							</xsd:element>
 							<xsd:element name="gender" type="xsd:string">
-							</xsd:element>
-							<xsd:element name="no" type="xsd:integer">
 							</xsd:element>
 						</xsd:all>
 					</xsd:complexType>
 				</xsd:element>
+				
 				<xsd:element name="result">
 					<xsd:complexType>
 						<xsd:all>
-							<xsd:element name="tot" type="xsd:string">
+							<xsd:element name="total" type="xsd:integer">
 							</xsd:element>
-							<xsd:element name="per" type="xsd:int">
+							<xsd:element name="perc" type="xsd:integer">
 							</xsd:element>
 							<xsd:element name="grade" type="xsd:string">
 							</xsd:element>
 						</xsd:all>
 					</xsd:complexType>
 				</xsd:element>
-			</xsd:sequence>
+			</xsd:all>
 		</xsd:complexType>
-	</xsd:element>
+	</xsd:element>	
 </xsd:schema>
