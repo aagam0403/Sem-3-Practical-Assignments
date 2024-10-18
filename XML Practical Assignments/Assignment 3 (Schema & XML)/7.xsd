@@ -1,26 +1,35 @@
-<?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">	
-	<xsd:element name="data">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="items">
 		<xsd:complexType>
-			<xsd:sequence>
+			<xsd:all>
 				<xsd:element name="name" type="xsd:string"></xsd:element>
 				<xsd:element name="category">
 					<xsd:complexType>
 						<xsd:choice>
-							<xsd:element name="veg" type="xsd:string"></xsd:element>
+							<xsd:element name="veg">
+								<xsd:simpleType>
+									<xsd:restriction base="xsd:string">
+										<xsd:enumeration value="Chips"></xsd:enumeration>
+										<xsd:enumeration value="Biscuits"></xsd:enumeration>
+										<xsd:enumeration value="Salad"></xsd:enumeration>
+										<xsd:enumeration value="Bread"></xsd:enumeration>
+									</xsd:restriction>
+								</xsd:simpleType>
+							</xsd:element>
 							<xsd:element name="nveg" type="xsd:string"></xsd:element>
 						</xsd:choice>
 					</xsd:complexType>
 				</xsd:element>
-				<xsd:element name="info">
+				
+				<xsd:element name="cinfo">
 					<xsd:complexType>
 						<xsd:all>
-							<xsd:element name="no" type="xsd:int"></xsd:element>
-							<xsd:element name="add" type="xsd:string"></xsd:element>
+							<xsd:element name="mob" type="xsd:int"></xsd:element>
+							<xsd:element name="address" type="xsd:string"></xsd:element>
 						</xsd:all>
 					</xsd:complexType>
 				</xsd:element>
-			</xsd:sequence>
+			</xsd:all>
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>
