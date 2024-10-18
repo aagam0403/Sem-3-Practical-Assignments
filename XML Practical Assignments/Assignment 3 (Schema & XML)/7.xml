@@ -1,10 +1,11 @@
-<data>
-	<name>abc</name>
-	<category>
-		<veg>ok</veg>
-	</category>
-	<info>
-		<no>12345</no>
-		<add>abc</add>
-	</info>
-</data>
+<?xml version="1.0"?>
+	<items>
+		<name>ABC</name>
+		<category>
+			<veg>Chips</veg>
+		</category>
+		<cinfo>
+			<mob>231813</mob>
+			<address>AHMD</address>
+		</cinfo>
+	</items>
