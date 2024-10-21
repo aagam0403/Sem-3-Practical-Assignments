@@ -1,19 +1,18 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-template<class T1,class T2,class T3>
-void dis(T1 a,T2 b,T3 c)
+template <class T1,class T2>
+void dis(T1 a, T2 b)
 {
-	if(a>b)
+    if(a>b)
 	{
-		cout<<a<<"t"<<c<<endl;
+		cout<<a<<"t"<<endl;
 	}
 	else
 	{
-		cout<<b<<"\t"<<c<<endl;	
+		cout<<b<<"\t"<<endl;	
 	}
 }
-
 int main()
 {
-	dis(10,10.1,'a');
+	dis(10,10.1);
 }
