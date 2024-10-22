@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 template<class T1,class T2>
-class comp{
+class comp
+{
 	public :
 	T2 cint;
 	void inte(T1 p,T2 i,T1 n)
