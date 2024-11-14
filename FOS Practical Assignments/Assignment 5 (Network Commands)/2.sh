@@ -1,2 +1,2 @@
 echo "Active Processes:"
-ps -aux
+ps -a
