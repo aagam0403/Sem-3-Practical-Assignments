@@ -1,31 +1,29 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() {
-    int rows, cols;
-    cout << "Enter the number of rows: ";
-    cin >> rows;
-    cout << "Enter the number of columns: ";
-    cin >> cols;
-
-    int arr[rows][cols];
-
-    cout << "Enter the elements:\n";
-    for(int i = 0; i < rows; i++) 
+int main()
+{
+    int r,c;
+    cout<<"Enter Rows = ";
+    cin>>r;
+    cout<<"Enter Column = ";
+    cin>>c;
+    int a[r][c];
+    for(int i=0;i<r;i++)
     {
-        for(int j = 0; j < cols; j++) 
+        for(int j=0;j<c;j++)
         {
-            cin >> arr[i][j];
+            cout<<"Enter the Value of an array ["<<i<<"]["<<j<<"]";
+            cin>>a[i][j];
         }
     }
-
-    cout << "The elements are:\n";
-    for(int i = 0; i < rows; i++) 
+    
+    for(int i=0;i<r;i++)
     {
-        for(int j = 0; j < cols; j++) 
+        for(int j=0;j<c;j++)
         {
-            cout << arr[i][j] << " ";
+            cout<<a[i][j];
         }
-        cout << endl;
+        cout<<"\n";
     }
     return 0;
 }
