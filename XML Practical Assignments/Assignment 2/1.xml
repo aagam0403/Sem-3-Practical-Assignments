@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-	<!DOCTYPE personal SYSTEM "1.dtd">
-	<personal>
-		<roll>306</roll>
-		<name>aagam</name>
-		<address>paldi</address>
+	<!DOCTYPE pinfo SYSTEM "1.dtd">
+	<pinfo>
+		<roll>12</roll>
+		<name>Aagan</name>
+		<address>$%^TYHUN</address>
 		<mobile>7046465749</mobile>
-		<dob>04</dob>
-		<age>19</age>
-		<quali>it</quali>
-	</personal>
+		<dob>040306</dob>
+		<age>18</age>
+		<quali>IT</quali>
+	</pinfo>
