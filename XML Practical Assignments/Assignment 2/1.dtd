@@ -1,0 +1,8 @@
+<!ELEMENT pinfo (roll,name,address,mobile,dob,age,quali)>
+	<!ELEMENT roll (#PCDATA)>
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT address (#PCDATA)>
+	<!ELEMENT mobile (#PCDATA)>
+	<!ELEMENT dob (#PCDATA)>
+	<!ELEMENT age (#PCDATA)>
+	<!ELEMENT quali (#PCDATA)>
