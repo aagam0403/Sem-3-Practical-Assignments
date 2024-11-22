@@ -11,5 +11,5 @@ awk 'BEGIN {max=0} {if ($4 > max) {max=$4; name=$2}} END {print name " has the h
 echo ""
 
 echo "Displaying no."
-grep -o '[0-9]\+' student.txt
+grep -o '[0-9]' student.txt
 echo ""
